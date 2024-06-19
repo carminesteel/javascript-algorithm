@@ -5,11 +5,6 @@
 
 // 예를 들어, 4 팩토리얼 (4!)은 4 * 3 * 2 * 1 = 2입니다. 팩토리얼 0(0!)은 항상 1입니다.
 
-factorial(1); // 1
-factorial(2); // 2
-factorial(4); // 24
-console.log(factorial(7)); // 5040
-
 function factorial(val) {
   if (val === 0) return 1;
   if (val === 1) return 1;
