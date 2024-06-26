@@ -12,5 +12,3 @@ function recursiveRange(value) {
   if (nextValue === 0) return 1;
   return value + recursiveRange(nextValue);
 }
-
-console.log(recursiveRange(6));
