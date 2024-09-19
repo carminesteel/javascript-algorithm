@@ -7,7 +7,7 @@ isPalindrome("amanaplanacanalpanama"); // true
 
 function isPalindrome(str) {
   // 첫번째 문자열과 마지막 문자열이 동일하지 않으면 false 리턴
-  // str/2가 0이 아니면 false 리턴
+  // str/2가 홀수가 아니면 false 리턴
 
   if (str.length === 0) return true;
   if (str.length % 2 === 0) return false;
